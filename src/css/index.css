@@ -13,7 +13,7 @@ body {
   background: url('../../dist/images/park.jpg') center/cover;
   display: flex;
   flex-direction: column;
-  font-family: 'Raleway', sans-serif; /* Apply Raleway font to the entire body */
+  font-family: 'Raleway', sans-serif; 
 }
 
 .navigation-bar {
@@ -21,14 +21,14 @@ body {
   width: 100%;
   padding: 10px;
   display: flex;
-  justify-content: space-between; /* Add space between icon and buttons */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between; 
+  align-items: center;
 }
 
 .navigation-buttons {
   display: flex;
   justify-content: space-between;
-  gap: 35px; /* Add gap between buttons */
+  gap: 35px; 
   margin-right: 20px;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .navigation-buttons button:hover {
-  text-decoration: underline; /* Optional: add underline on hover for better UX */
+  text-decoration: underline; 
 }
 
 .dog-icon {
@@ -54,18 +54,18 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 20px 0; /* Add padding to ensure spacing */
+  padding: 20px 0; 
 }
 
 .heading {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
   font-weight: 100;
 }
 
 .site-about-dogs-section {
   display: flex;
   justify-content: center;
-  margin-top: -30px; /* Move the section up slightly without overlapping */
+  margin-top: -30px; 
   margin-bottom: 25px;
 }
 
@@ -75,9 +75,9 @@ body {
 }
 
 .info-button {
-  background-color: #fff; /* Set background color */
-  border: 4px solid #3F8DA7; /* Add blue border same as footer color */
-  color: #3F8DA7; /* Set font color same as footer */
+  background-color: #fff; 
+  border: 4px solid #3F8DA7; 
+  color: #3F8DA7;
   font-size: 16px;
   padding: 4px 10px;
   cursor: pointer;
@@ -85,15 +85,14 @@ body {
 }
 
 .info-button:hover {
-  background-color: #92E0E5; /* Change background color on hover */
-  color: #fff; /* Change font color on hover */
+  background-color: #92E0E5;
+  color: #fff;
 }
-
 .three-dogs-section {
   display: flex;
-  justify-content: space-around; /* Space the three sections evenly */
+  justify-content: space-around;
   background-color: #fff;
-  padding: 20px 0; /* Ensure padding inside the section */
+  padding: 20px 0;
   width: 100%;
   flex: 1;
 }
@@ -101,25 +100,25 @@ body {
 .three-dogs-section section {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center text */
+  align-items: center;
+  text-align: center;
 }
 
 .three-dogs-section section p {
-  margin: 10px 0; /* Add margin to create space around the paragraphs */
+  margin: 10px 0; 
 }
 
 h2 {
-  color: #fff; /* Set text color to white */
+  color: #fff; 
   margin: 0;
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  height: 100px; /* Give it a height to align properly */
+  align-items: center; 
+  justify-content: center; 
+  height: 100px; 
 }
 
 h2:hover {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Cool hover effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
 }
 
 h3 {
@@ -130,7 +129,7 @@ h3 {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 60px; /* Adjust gap to bring icons closer together */
+  gap: 60px;
   margin-bottom: 20px;
 }
 
@@ -138,7 +137,7 @@ footer {
   background-color: #3F8DA7;
   width: 100%;
   text-align: center;
-  padding: 20px 0; /* Increase padding to enlarge footer */
+  padding: 20px 0; 
 }
 
 .main-content {
@@ -158,27 +157,26 @@ footer {
 }
 
 .footer-button:hover {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Cool hover effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
   text-decoration: underline;
-  text-decoration-color: #fff; /* Change underline color on hover */
+  text-decoration-color: #fff; 
 }
 
-/* Add rounded corners and blue border to the dog images */
 .dog-one {
-  border-radius: 50%; /* Make the image round */
-  border: 4.5px solid #7B7BAB; /* Add a thin blue border */
-  width: 300px; /* Set the desired width for dog-one */
-  height: 300px; /* Set the desired height for dog-one */
+  border-radius: 50%; 
+  border: 4.5px solid #7B7BAB; 
+  width: 300px; 
+  height: 300px; 
   object-fit: cover;
-  margin-top: 30px; /* Ensure the image fits within the set dimensions */
+  margin-top: 30px; 
 }
 
 .dog-two, .dog-three, .dog-four {
-  border-radius: 50%; /* Make the images round */
-  border: 3px solid #3F8DA7; /* Add a thin blue border */
-  width: 150px; /* Set the desired width for other dogs */
-  height: 150px; /* Set the desired height for other dogs */
-  object-fit: cover; /* Ensure the image fits within the set dimensions */
+  border-radius: 50%; 
+  border: 3px solid #3F8DA7; 
+  width: 150px; 
+  height: 150px;
+  object-fit: cover; 
 }
 
 
